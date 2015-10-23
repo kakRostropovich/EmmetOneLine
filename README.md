@@ -13,4 +13,8 @@ For this to work , you must first install the plugin [Emmet](https://github.com/
 2. Clone or [download](https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/archive/master.zip) git repository into your packages folder (in ST, find Browse Packages... menu item to open this folder)
 3. Restart ST editor (if required)
 
+**Usage:**
+
+Just type by a space the usual Emmett-shortcuts at the end of press Ctrl-Tab ( or other combination of your choice ).
+
 [@kakRostropovich](https://twitter.com/kakrostropovich)
