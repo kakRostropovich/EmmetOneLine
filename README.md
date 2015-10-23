@@ -1,5 +1,5 @@
 # Sublime Text plugin: Create CSS-block from one line with Emmet
-version 0.0.1
+**v0.0.1**
 
 This small Sublime Text plugin allows you to type a few css-property by a space and a time to deploy them with Emmet.
 
