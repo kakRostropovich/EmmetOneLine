@@ -1,34 +1,29 @@
 import sublime, sublime_plugin, re
 
-class EmmetMultilineCommand(sublime_plugin.TextCommand):
+class EmmetCssFromOneLineCommand(sublime_plugin.TextCommand):
     
     def run(self, edit):
         
-        v = self.view
-        line_region = v.line(v.sel()[0])
-        line_str = v.substr(line_region)
+        view = self.view
+        line_region = view.line(view.sel()[0])
+        line_str = view.substr(line_region)
+        left_padding = re.findall(r'^(\s+)', line_str)[0]
 
-        # Перевести в массив по пробелу
+        # find commands in line
         props_array = re.findall(r'([a-zA-Z0-9:!;().,?/\-+#]+)', line_str)
-        padding = re.findall(r'^(\s+)', line_str)
+        
+        # Delete long string
+        view.replace(edit, line_region, '')
 
-        # Удаляем текущую строку
-        v.replace(edit, line_region, '')
+        def runEmmet():
+            view.run_command("expand_abbreviation_by_tab")
 
-        # Расставляем свойства по строкам
-        v.insert(edit, v.sel()[0].end(), padding[0] + props_array[0])
-        v.run_command("expand_abbreviation_by_tab")
+        # Processing first element
+        view.insert(edit, view.sel()[0].end(), left_padding + props_array[0])
+        runEmmet()
         
         i = 1
         while i < len(props_array):
-            v.insert(edit, v.sel()[0].end(), '\n' + padding[0] + props_array[i])
-            # sublime_plugin.WindowCommand.run("")
-            v.run_command("expand_abbreviation_by_tab")
-            
-            i = i + 1
-
-        # Каждый элемент массива преобразовать через Emmet
-        # Вывести каждый элемент массива по очереди, добавляя инденты
-
-
-        sublime.status_message('ds')
+            view.insert(edit, view.sel()[0].end(), '\n' + left_padding + props_array[i])
+            runEmmet()
+            i += 1
