@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["ctrl+tab"], "command": "emmet_css_from_one_line"
+    }
+]
