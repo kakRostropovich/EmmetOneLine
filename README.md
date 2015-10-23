@@ -9,7 +9,8 @@ For this to work , you must first install the plugin [Emmet](https://github.com/
 
 **Install:**
 
-1. Clone or [download](https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/archive/master.zip) git repository into your packages folder (in ST, find Browse Packages... menu item to open this folder)
-2. Restart ST editor (if required)
+1. Install Emmet [Instructions](https://github.com/sergeche/emmet-sublime#how-to-install)
+2. Clone or [download](https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/archive/master.zip) git repository into your packages folder (in ST, find Browse Packages... menu item to open this folder)
+3. Restart ST editor (if required)
 
 [@kakRostropovich](https://twitter.com/kakrostropovich)
