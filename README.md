@@ -17,4 +17,7 @@ For this to work , you must first install the plugin [Emmet](https://github.com/
 
 Just type by a space the usual Emmett-shortcuts at the end of press Ctrl-Tab ( or other combination of your choice ).
 
+I would be glad if this plugin-kid will save you minutes of life ;)
+
+From Siberia with ♥
 [@kakRostropovich](https://twitter.com/kakrostropovich)
