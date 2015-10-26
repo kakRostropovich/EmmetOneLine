@@ -9,9 +9,22 @@ For this to work, you must first install the plugin [Emmet](https://github.com/s
 
 **Install:**
 
-1. Install Emmet [Instructions](https://github.com/sergeche/emmet-sublime#how-to-install)
-2. Clone or [download](https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/archive/master.zip) git repository into your packages folder (in Sublime Text, find 'Browse Packages...' menu item to open this folder)
-3. Restart Sublime Text
+***With Package Control***
+
+> 1. Install Package Control
+
+> 2. Add repository (Preferences -> Package Control -> Add Repository -> add "https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/")
+
+> 3. Add plugin (Preferences -> Package Control -> Package Control -> Install Package
+Type "sublime-emmet-css-from-one-line")
+
+***Manualy***
+
+> 1. Install Emmet [Instructions](https://github.com/sergeche/emmet-sublime#how-to-install)
+
+> 2. Clone or [download](https://github.com/kakRostropovich/sublime-emmet-css-from-one-line/archive/master.zip) git repository into your packages folder (in Sublime Text, find 'Browse Packages...' menu item to open this folder)
+
+> 3. Restart Sublime Text
 
 **Usage:**
 
