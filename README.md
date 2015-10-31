@@ -13,10 +13,7 @@ For this to work, you must first install the plugin [Emmet](https://github.com/s
 
 > 1. Install Package Control
 
-> 2. Add repository (Preferences -> Package Control -> Add Repository -> add "https://github.com/kakRostropovich/EmmetOneLine/")
-
-> 3. Add plugin (Preferences -> Package Control -> Package Control -> Install Package
-Type "EmmetOneLine")
+> 2. Install Package (Preferences -> Package Control -> Install Package -> EmmetOneLine)
 
 ***Manualy***
 
