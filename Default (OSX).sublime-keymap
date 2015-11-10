@@ -1,5 +1,5 @@
 [
     {
-        "keys": ["super+tab"], "command": "emmet_css_from_one_line"
+        "keys": ["ctrl+tab"], "command": "emmet_css_from_one_line"
     }
 ]
