@@ -25,7 +25,7 @@ In order for EmmetOneLine to work you have to have [Emmet](https://github.com/se
 
 **Usage:**
 
-Expand with a space the usual Emmet-shortcuts at the end or press Ctrl-Tab (or other combination of your choice).
+Use space to expand the usual Emmet-shortcuts at the end or press Ctrl-Tab (or other combination of your choice).
 
 I would be glad if this plugin-kid will saves you the time of your life ;)
 
