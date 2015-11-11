@@ -1,11 +1,11 @@
 # Sublime Text plugin: Create CSS-block from one line with Emmet
 **v0.0.1**
 
-This small Sublime Text plugin allows you to type a few css-property by a space and a time to deploy them with Emmet.
+EmmetOneLine is a Sublime Text plugin which allows you to expand multiple css-properties with a space key and a time to deploy them with Emmet.
 
 ![Goto-CSS-Declaration](https://raw.githubusercontent.com/kakRostropovich/EmmetOneLine/master/illustration.gif)
 
-For this to work, you must first install the plugin [Emmet](https://github.com/sergeche/emmet-sublime).
+In order for EmmetOneLine to work you have to have [Emmet](https://github.com/sergeche/emmet-sublime) installed.
 
 **Install:**
 
@@ -25,9 +25,9 @@ For this to work, you must first install the plugin [Emmet](https://github.com/s
 
 **Usage:**
 
-Just type by a space the usual Emmett-shortcuts at the end of press Ctrl-Tab (or other combination of your choice).
+Expand with a space the usual Emmet-shortcuts at the end or press Ctrl-Tab (or other combination of your choice).
 
-I would be glad if this plugin-kid will save you minutes of life ;)
+I would be glad if this plugin-kid will saves you the time of your life ;)
 
 From Siberia with ♥
 [@kakRostropovich](https://twitter.com/kakrostropovich)
