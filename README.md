@@ -29,5 +29,7 @@ Use space to expand the usual Emmet-shortcuts at the end or press Ctrl-Tab (or o
 
 I would be glad if this plugin-kid will saves you the time of your life ;)
 
+PS (RUS): Большое русскоязычное спасибо [antonk52](https://github.com/antonk52) за правку ошибок в тексте описания на английском!
+
 From Siberia with ♥
 [@kakRostropovich](https://twitter.com/kakrostropovich)
