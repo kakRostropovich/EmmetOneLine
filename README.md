@@ -1,5 +1,5 @@
 # Sublime Text plugin: Create CSS-block from one line with Emmet
-**v0.0.1**
+**v0.0.5**
 
 EmmetOneLine is a Sublime Text plugin which allows you to expand multiple css-properties with a space key and a time to deploy them with Emmet.
 
